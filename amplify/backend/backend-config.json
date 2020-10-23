@@ -1,12 +1,24 @@
 {
-    "auth": {},
-    "storage": {},
-    "function": {},
-    "api": {},
-    "hosting": {
-        "amplifyhosting": {
-            "service": "amplifyhosting",
-            "type": "cicd"
-        }
+  "auth": {
+    "devhomec3793ae5": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
     }
+  },
+  "storage": {
+    "devhome": {
+      "service": "S3",
+      "providerPlugin": "awscloudformation"
+    }
+  },
+  "function": {},
+  "api": {},
+  "hosting": {
+    "amplifyhosting": {
+      "service": "amplifyhosting",
+      "type": "cicd"
+    }
+  }
 }
