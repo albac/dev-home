@@ -9,14 +9,12 @@ function CityStyles({ CityName, CityImage }) {
   const CityView = require(`../assets/${CityImage}`);
 
   const HeadingStyles = styled.div`
-    .jumbo {
-      background: url(${CityView}) no-repeat fixed bottom;
+    .jumbotron {
+      background: url(${CityView}) fixed center no-repeat;
       background-size: cover;
-      height: 320px;
+      vertical-align: middle;
       color: #eceff4;
       position: relative;
-      margin-left: auto;
-      margin-right: auto;
       text-align: right;
       opacity: 1;
       transition: opacity 1s ease-in-out;
@@ -25,8 +23,8 @@ function CityStyles({ CityName, CityImage }) {
 
   return (
     <HeadingStyles>
-      <Jumbotron fluid className="jumbo">
-        <Container>
+      <Jumbotron fluid>
+        <Container fluid>
           <h1>Albac.Dev</h1>
           <p>
             <b>Portafolio</b>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
