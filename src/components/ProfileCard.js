@@ -25,7 +25,7 @@ function ProfileCard() {
   return (
     <React.Fragment>
       <CardStyles>
-        <Card border="dark" style={{ width: "13rem" }} className="text-left">
+        <Card border="dark" style={{ width: "16rem" }} className="text-left">
           <Card.Img variant="top" src={ProfilePic} fluid />
           <Card.Body>
             <Card.Title>Alfredo Baldoceda</Card.Title>

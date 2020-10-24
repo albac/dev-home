@@ -9,7 +9,7 @@ import FullStackProjects from "./projects/FullStackProjects";
 function CategoryCards() {
   const CardStyles = styled.div`
     .card {
-      width: 32rem;
+      width: 22rem;
       background-color: #2e3440;
     }
     .card-text {
@@ -29,8 +29,8 @@ function CategoryCards() {
   `;
   return (
     <CardStyles>
-      <CardDeck>
-        <Card>
+      <CardDeck fluid>
+        <Card fluid>
           <Card.Body>
             <Card.Title>News / Stats</Card.Title>
             <Card.Text>Statistics</Card.Text>
