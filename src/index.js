@@ -4,6 +4,11 @@ import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 
+// Amplify initial config
+import Amplify from "aws-amplify";
+import config from "./aws-exports";
+Amplify.configure(config);
+
 // Importing the Bootstrap CSS
 import "bootstrap/dist/css/bootstrap.min.css";
 

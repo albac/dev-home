@@ -11,6 +11,11 @@ function AWSProjects() {
       </Card.Body>
       <ListGroup>
         <ListGroup.Item>
+          <Card.Link href="/awsdevsecure">
+            Secure AWS services access for developers
+          </Card.Link>
+        </ListGroup.Item>
+        <ListGroup.Item>
           <Card.Link href="/awsprojects">
             Using Taskcat to test a cloudformation template for Tableau Cluster.
           </Card.Link>

@@ -14,7 +14,23 @@
     }
   },
   "function": {},
-  "api": {},
+  "api": {
+    "devhomeapi": {
+      "service": "AppSync",
+      "providerPlugin": "awscloudformation",
+      "output": {
+        "authConfig": {
+          "defaultAuthentication": {
+            "authenticationType": "AMAZON_COGNITO_USER_POOLS",
+            "userPoolConfig": {
+              "userPoolId": "authdevhomec3793ae5"
+            }
+          },
+          "additionalAuthenticationProviders": []
+        }
+      }
+    }
+  },
   "hosting": {
     "amplifyhosting": {
       "service": "amplifyhosting",

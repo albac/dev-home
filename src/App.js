@@ -6,6 +6,7 @@ import { fas } from "@fortawesome/free-solid-svg-icons";
 import { fab } from "@fortawesome/free-brands-svg-icons";
 import "./App.css";
 import UnderConstruction from "./UnderConstruction";
+import BlogManager from "./BlogManager";
 
 library.add(fab, fas);
 
@@ -14,6 +15,7 @@ function App() {
     <Router>
       <Switch>
         <Route exact path="/" component={Home} />
+        <Route exact path="/blogmanager" component={BlogManager} />
         <Route component={UnderConstruction} />
       </Switch>
     </Router>
